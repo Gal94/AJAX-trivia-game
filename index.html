@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark:700|Viga&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Trivia Game</title>
+</head>
+<body>
+    <section id="helper">
+        <div class="info">
+            <h1>Welcome to the great trivia game!</h1>
+            <h3>Each category holds 10 questions, can you solve them all and be the winner?</h3>
+            <p>Please choose a category:</p>
+        </div>
+        <div class="categories container">
+            <button class="category">General Knowledge</button>
+            <button class="category">Entertainment: Video Games</button>
+            <button class="category">Science: Computers</button>
+            <button class="category">Celebrities</button>
+            <button class="category">Art</button>
+            <button class="category">Animals</button>
+        </div>
+    </section>
+    <section id="Game" class="hide">
+        <h3 class="question">Question will be here</h3>
+        <div class="container">
+            <div class="answers-div">
+                <button class="answers ans-a">A</button>
+                <button class="answers ans-b">B</button>
+                <button class="answers ans-c">C</button>
+                <button class="answers ans-d">D</button>
+            </div>
+        </div>
+        <p class="score">Score: 0</p>
+    </section>
+<div class="bg"></div>
+</body>
+
+<script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</html>

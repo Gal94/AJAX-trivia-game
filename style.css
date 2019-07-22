@@ -1,0 +1,117 @@
+/* attributes */
+
+body {
+    background-color: #efefef;
+    font-family: 'Viga', sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 1;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+}
+
+button {
+    color: black;
+    flex-basis: 20%;
+    height: 50px;
+    position: relative;
+    margin: 20px 65px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.75s ease-out, color  .75s ease-out 0.1s;
+    /* first is background color and then the text color */
+    outline-style: none;
+}
+
+button:hover {
+    /*
+    background-color: #e25656;
+     */
+    background-color:black;
+    color: #d1d1d1;
+}
+
+button:active {
+    top: 3px;
+    box-shadow: none;
+}
+
+/* classes */
+.info {
+    text-align: center;
+    width: 75%;
+    margin-top: 3rem;
+    margin-left: 12rem;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.categories {
+    width: 75%;
+    margin-left: 12rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+}
+
+.category {
+    justify-content: space-between;
+}
+
+.question {
+    width: 75%;
+    margin-top: 3rem;
+    margin-left: 15rem;
+    text-align: center;
+}
+
+.answers-div {
+
+    width: 75%;
+    margin-top:3%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.answers {
+    flex-basis: 33%;
+}
+
+.score {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: inherit;
+}
+
+.bg {
+    background-image: url(wallpaper.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    z-index: -1;
+    background-color: #80a3db
+}
