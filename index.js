@@ -1,3 +1,5 @@
+//Add an infinite game mode.
+
 //Variables
 let score = 0;
 let data, i = 0, correctIndex;
